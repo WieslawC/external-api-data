@@ -6,7 +6,25 @@ class ShowUser extends Component {
     currentUser: {},
   };
   componentDidMount() {
+    // const url = `https://jsonplaceholder.typicode.com/users/${this.state.userIndex}`;
+    // fetch(url)
+    //   .then((response) => {
+    //     if (response.ok) {
+    //       return response.json();
+    //     }
+    //     throw Error(response.statusText);
+    //   })
+    //   .then((response) => {
+    //     this.setState({
+    //       currentUser: response,
+    //     });
+    //   })
+    //   .catch((error) => console.log(error, "Nie można pobrać danych"));
+  }
+
+  handleShowUserClick = () => {
     const url = `https://jsonplaceholder.typicode.com/users/${this.state.userIndex}`;
+    const that = this;
 
     fetch(url)
       .then((response) => {
@@ -16,17 +34,12 @@ class ShowUser extends Component {
         throw Error(response.statusText);
       })
       .then((response) => {
-        this.setState({
+        that.setState((prevState) => ({
+          userIndex: prevState.userIndex + 1,
           currentUser: response,
-        });
+        }));
       })
       .catch((error) => console.log(error, "Nie można pobrać danych"));
-  }
-
-  handleShowUserClick = () => {
-    this.setState((prevState) => ({
-      userIndex: prevState.userIndex + 1,
-    }));
   };
 
   render() {
