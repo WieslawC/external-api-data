@@ -1,11 +1,10 @@
 import "../style/App.css";
-import ShowUser from "../components/ShowUser.js";
+import GetUserData from "../components/GetUserData";
 
 function App() {
   return (
     <div className="wrapper">
-      <div>Hello There</div>
-      <ShowUser />
+      <GetUserData />
     </div>
   );
 }
