@@ -1,5 +1,6 @@
 .userBox {
   width: 100%;
+  /* animation: showContent 1s forwards; */
 
   display: flex;
   flex-direction: column;
@@ -7,6 +8,7 @@
 
 img {
   margin: 15px 0;
+  border: 4px solid rgb(55, 75, 121);
 }
 
 .name,
@@ -17,10 +19,6 @@ img {
 
 .name {
   margin-top: 30px;
-}
-
-.active {
-  animation: showContent 2s forwards;
 }
 
 @keyframes showContent {
