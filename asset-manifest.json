@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/WieslawC/external-api-data/static/css/main.0d961707.chunk.css",
-    "main.js": "/WieslawC/external-api-data/static/js/main.a9ec5213.chunk.js",
-    "main.js.map": "/WieslawC/external-api-data/static/js/main.a9ec5213.chunk.js.map",
-    "runtime-main.js": "/WieslawC/external-api-data/static/js/runtime-main.3d92d658.js",
-    "runtime-main.js.map": "/WieslawC/external-api-data/static/js/runtime-main.3d92d658.js.map",
-    "static/js/2.d4cdb835.chunk.js": "/WieslawC/external-api-data/static/js/2.d4cdb835.chunk.js",
-    "static/js/2.d4cdb835.chunk.js.map": "/WieslawC/external-api-data/static/js/2.d4cdb835.chunk.js.map",
-    "index.html": "/WieslawC/external-api-data/index.html",
-    "static/css/main.0d961707.chunk.css.map": "/WieslawC/external-api-data/static/css/main.0d961707.chunk.css.map",
-    "static/js/2.d4cdb835.chunk.js.LICENSE.txt": "/WieslawC/external-api-data/static/js/2.d4cdb835.chunk.js.LICENSE.txt"
+    "main.css": "/external-api-data/static/css/main.0d961707.chunk.css",
+    "main.js": "/external-api-data/static/js/main.a9ec5213.chunk.js",
+    "main.js.map": "/external-api-data/static/js/main.a9ec5213.chunk.js.map",
+    "runtime-main.js": "/external-api-data/static/js/runtime-main.56ea4aed.js",
+    "runtime-main.js.map": "/external-api-data/static/js/runtime-main.56ea4aed.js.map",
+    "static/js/2.d4cdb835.chunk.js": "/external-api-data/static/js/2.d4cdb835.chunk.js",
+    "static/js/2.d4cdb835.chunk.js.map": "/external-api-data/static/js/2.d4cdb835.chunk.js.map",
+    "index.html": "/external-api-data/index.html",
+    "static/css/main.0d961707.chunk.css.map": "/external-api-data/static/css/main.0d961707.chunk.css.map",
+    "static/js/2.d4cdb835.chunk.js.LICENSE.txt": "/external-api-data/static/js/2.d4cdb835.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3d92d658.js",
+    "static/js/runtime-main.56ea4aed.js",
     "static/js/2.d4cdb835.chunk.js",
     "static/css/main.0d961707.chunk.css",
     "static/js/main.a9ec5213.chunk.js"
